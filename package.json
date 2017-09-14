@@ -1,0 +1,15 @@
+{
+  "name": "",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "version": "",
+  "description": "SPA Example",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.11",
+    "opn": "^5.1.0"
+  }
+}
