@@ -1,6 +1,6 @@
-var bodyParser = require('body-parser');
 var express = require('express');
 var mongoose = require('mongoose');
+var bodyParser = require('body-parser');
 var opn = require('opn');
 
 var app = express();
@@ -12,8 +12,7 @@ app.get('*', function(req, res) {
   res.sendfile('app/public/index.html');
 });
 
-
 app.listen(port, function() {
-  console.log('Listening on port' + port);
-  opn('http//localhost:' + port);
+  console.log('Listening on port ' + port);
+  opn('http://localhost:' + port);
 });
