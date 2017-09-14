@@ -1,0 +1,22 @@
+{
+  "name": "SPA Example",
+  "homepage": "https://github.com/nvela44/SPA-Example-1",
+  "authors": [
+    "Nicholas Vela <nvcareer94@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.6",
+    "font-awesome": "^4.7.0",
+    "bootstrap": "^3.3.7"
+  }
+}
